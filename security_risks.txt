@@ -1,0 +1,50 @@
+## Port 80 — HTTP
+
+ What: Unsecure web service (web pages).
+
+ Risk: Outdated web apps → attackers can exploit.
+
+ Fix: Use HTTPS, update software, protect admin pages.
+
+
+## Port 443 — HTTPS
+
+ What: Secure web service (TLS).
+
+ Risk: Bad TLS config or expired cert → security issues.
+
+ Fix: Renew certs, use modern TLS settings.
+
+## Port 1900 — UPnP (SSDP)
+
+ What: Device discovery for smart devices.
+
+ Risk: Can reveal devices or be abused if exposed externally.
+
+ Fix: Disable UPnP on router if not needed; update firmware.
+
+## Port 7443 — ORACLE-HTTPS (alt HTTPS)
+
+ What: Alternate HTTPS (often admin/management).
+
+ Risk: Admin panels exposed → default creds or vulnerabilities.
+
+ Fix: Restrict to VPN, change default passwords, patch.
+
+## Port 8080 — HTTP-PROXY / Alt HTTP
+
+ What: Alternate web/app port (proxies, admin consoles).
+
+ Risk: Open proxy or vulnerable app → abuse or data leak.
+
+ Fix: Close if unused, enable auth, update app.
+
+## Port 8443 — HTTPS-ALT
+
+ What: Alternate HTTPS (apps/admin).
+
+ Risk: Same as 443 — exposed admin panels or old TLS.
+
+ Fix: Restrict access, use VPN, update TLS and app.
+
+

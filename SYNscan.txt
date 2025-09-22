@@ -1,0 +1,60 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-22 16:53 IST
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0031s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: A8:88:1F:87:03:78 (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.65
+Host is up (0.018s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: 04:E8:B9:50:2C:8D (Intel Corporate)
+
+Nmap scan report for 192.168.29.78
+Host is up (0.00022s latency).
+All 1000 scanned ports on 192.168.29.78 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: A8:E2:91:C6:8F:3C (Unknown)
+
+Nmap scan report for 192.168.29.79
+Host is up (0.0056s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+554/tcp   open  rtsp
+8888/tcp  open  sun-answerbook
+10000/tcp open  snet-sensor-mgmt
+MAC Address: 08:3A:2F:B0:73:1E (Guangzhou Juan Intelligent Tech Joint Stock)
+
+Nmap scan report for 192.168.29.181
+Host is up (0.019s latency).
+All 1000 scanned ports on 192.168.29.181 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: DA:BF:E3:95:7D:FC (Unknown)
+
+Nmap scan report for 192.168.29.254
+Host is up (0.0039s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 3A:68:E3:59:6F:83 (Unknown)
+
+Nmap scan report for 192.168.29.134
+Host is up (0.0000070s latency).
+All 1000 scanned ports on 192.168.29.134 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (7 hosts up) scanned in 35.94 seconds
